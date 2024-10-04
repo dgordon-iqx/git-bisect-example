@@ -5,6 +5,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  const thisIsAVariable = "This is commit 5";
 
   return (
     <>
@@ -18,7 +19,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <h2>This is commit 4</h2>
+        <h2>{thisIsAVariable}</h2>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
