@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-  const thisIsAVariable = "This is commit 7";
+  const thisIsAVariable = "This is commit 8";
 
   return (
     <>
