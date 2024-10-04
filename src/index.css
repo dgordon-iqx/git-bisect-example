@@ -13,6 +13,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root.error {
+  background-color: red;
+}
+
+.IMissTailwindAlready {
+  font-size: x-large;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
